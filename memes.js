@@ -5,7 +5,6 @@ const imagenActual = ["meme1.jpg"]
 for (let index = 0; index < boton.length; index++) {
     const element = boton[index];
     element.addEventListener("click", cambiarImagen);
-    
 }
 
 function cambiarFondo(button){
